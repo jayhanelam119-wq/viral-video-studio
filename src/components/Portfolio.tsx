@@ -3,29 +3,41 @@ import { Button } from "@/components/ui/button";
 
 const portfolioItems = [
   {
-    
-    videoUrl: "https://drive.google.com/uc?export=download&id=1jNKNpuMCEBA1D7FsLvEZZfKNJubFfJSf"
+    title: "Viral TikTok Compilation",
+    category: "Short-Form",
+    views: "2.5M views",
+    thumbnail: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=800&h=600&fit=crop",
   },
   {
-    
-    videoUrl: "https://drive.google.com/uc?export=download&id=1ESowQhhGhUuRl_CCTawUsBHRHFzPmLfz"
+    title: "Brand UGC Campaign",
+    category: "UGC",
+    views: "850K views",
+    thumbnail: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&h=600&fit=crop",
   },
   {
-    
-    videoUrl: "https://drive.google.com/uc?export=download&id=19yMyUuzkBAdSG7Yjp8-Hge-m3G74DruW"
+    title: "YouTube Documentary Edit",
+    category: "Long-Form",
+    views: "1.2M views",
+    thumbnail: "https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&h=600&fit=crop",
   },
   {
-    
-    videoUrl: "https://drive.google.com/uc?export=download&id=1V0GgEqsNaCmEfi37yP829t3-qgdwh6r9"
+    title: "Instagram Reels Series",
+    category: "Short-Form",
+    views: "3.1M views",
+    thumbnail: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=600&fit=crop",
   },
   {
-   
-    videoUrl: "https://drive.google.com/uc?export=download&id=1XF4Gef1uGQ-f0ZS1AOgHHYiruJcH-8Fg"
+    title: "Product Launch Video",
+    category: "Commercial",
+    views: "500K views",
+    thumbnail: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&h=600&fit=crop",
   },
   {
-    
-    videoUrl: "https://drive.google.com/uc?export=download&id=1RoZdcuyBql3kzVkVbwTimfwLhAYCsO7P"
-  }
+    title: "Podcast Highlights",
+    category: "Long-Form",
+    views: "780K views",
+    thumbnail: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=800&h=600&fit=crop",
+  },
 ];
 
 const Portfolio = () => {
