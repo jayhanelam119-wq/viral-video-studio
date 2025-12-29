@@ -10,7 +10,7 @@ const About = () => {
               <span className="text-sm text-muted-foreground">About Me</span>
             </div>
 
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-display mb-6 text-center">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-display mb-6 text-left">
               I'M <span className="gradient-text">JAYHAN</span>, YOUR NEXT
               CREATIVE PARTNER
             </h2>
