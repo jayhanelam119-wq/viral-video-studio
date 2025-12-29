@@ -15,12 +15,7 @@ const About = () => {
               CREATIVE PARTNER
             </h2>
 
-            <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-              I'm a digital content professional specializing in short-form and
-              long-form video editing for social media platforms. With a deep
-              understanding of what makes content go viral, I help creators and
-              brands stand out in the crowded digital landscape.
-            </p>
+            <p className="text-muted-foreground text-lg mb-6 leading-relaxed">I’m a digital content professional specializing in high-impact short-form and long-form video editing for social media platforms. With a strong command of audience psychology, platform algorithms, and viral storytelling, I help creators and brands cut through the noise, scale their reach, and turn content into measurable growth.</p>
 
             <p className="text-muted-foreground mb-8 leading-relaxed">
               From UGC videos to YouTube automation content, I bring expertise
