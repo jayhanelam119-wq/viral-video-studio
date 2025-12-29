@@ -32,7 +32,7 @@ const Contact = () => {
               <span className="text-sm text-muted-foreground">Get In Touch</span>
             </div>
 
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-display mb-6 text-center">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-display mb-6 text-left">
               LET'S EDIT YOUR NEXT{" "}
               <span className="gradient-text-accent">VIRAL VIDEO</span>
             </h2>
