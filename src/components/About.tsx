@@ -1,8 +1,6 @@
 import { User, Sparkles, Zap } from "lucide-react";
-
 const About = () => {
-  return (
-    <section id="about" className="section-padding">
+  return <section id="about" className="section-padding">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Content */}
@@ -12,7 +10,7 @@ const About = () => {
               <span className="text-sm text-muted-foreground">About Me</span>
             </div>
 
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-display mb-6">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-display mb-6 text-center">
               I'M <span className="gradient-text">JAYHAN</span>, YOUR NEXT
               CREATIVE PARTNER
             </h2>
@@ -72,17 +70,15 @@ const About = () => {
                 {/* Decorative grid lines */}
                 <div className="absolute inset-0 opacity-10">
                   <div className="h-full w-full" style={{
-                    backgroundImage: 'linear-gradient(hsl(var(--primary)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--primary)) 1px, transparent 1px)',
-                    backgroundSize: '50px 50px'
-                  }} />
+                  backgroundImage: 'linear-gradient(hsl(var(--primary)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--primary)) 1px, transparent 1px)',
+                  backgroundSize: '50px 50px'
+                }} />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;

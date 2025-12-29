@@ -1,25 +1,21 @@
 import { Button } from "@/components/ui/button";
 import { Play, ArrowRight } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-
 const Hero = () => {
   const scrollToContact = () => {
-    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById("contact")?.scrollIntoView({
+      behavior: "smooth"
+    });
   };
-
   const scrollToPortfolio = () => {
-    document.getElementById("portfolio")?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById("portfolio")?.scrollIntoView({
+      behavior: "smooth"
+    });
   };
-
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroBg}
-          alt="Video editing workspace"
-          className="w-full h-full object-cover opacity-40"
-        />
+        <img src={heroBg} alt="Video editing workspace" className="w-full h-full object-cover opacity-40" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-transparent to-background/80" />
       </div>
@@ -39,7 +35,7 @@ const Hero = () => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display leading-none mb-6 animate-slide-up">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display leading-none mb-6 animate-slide-up text-center">
             HELPING CREATORS & BRANDS{" "}
             <span className="gradient-text">GO VIRAL</span> THROUGH{" "}
             <span className="gradient-text-accent">HIGH-IMPACT</span> VIDEO
@@ -47,28 +43,15 @@ const Hero = () => {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in-up animation-delay-200">
-            Professional short-form video editing for TikTok, Instagram Reels &
-            YouTube. From UGC to cinematic content that converts.
-          </p>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in-up animation-delay-200">Premium short-form video editing for TikTok, Instagram Reels, and YouTube Shorts. Turning UGC and cinematic storytelling into scroll-stopping content that drives engagement and conversions.</p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up animation-delay-400">
-            <Button
-              variant="hero"
-              size="xl"
-              onClick={scrollToContact}
-              className="group"
-            >
+            <Button variant="hero" size="xl" onClick={scrollToContact} className="group">
               Work With Me
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button
-              variant="glass"
-              size="xl"
-              onClick={scrollToPortfolio}
-              className="group"
-            >
+            <Button variant="glass" size="xl" onClick={scrollToPortfolio} className="group">
               <Play className="w-5 h-5" />
               View My Work
             </Button>
@@ -77,21 +60,15 @@ const Hero = () => {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-3 gap-8 max-w-lg mx-auto animate-fade-in-up animation-delay-600">
             <div className="text-center">
-              <p className="text-3xl md:text-4xl font-display gradient-text">
-                50+
-              </p>
+              <p className="text-3xl md:text-4xl font-display gradient-text">25+</p>
               <p className="text-sm text-muted-foreground">Happy Clients</p>
             </div>
             <div className="text-center">
-              <p className="text-3xl md:text-4xl font-display gradient-text-accent">
-                500+
-              </p>
+              <p className="text-3xl md:text-4xl font-display gradient-text-accent">250+</p>
               <p className="text-sm text-muted-foreground">Videos Edited</p>
             </div>
             <div className="text-center">
-              <p className="text-3xl md:text-4xl font-display gradient-text">
-                10M+
-              </p>
+              <p className="text-3xl md:text-4xl font-display gradient-text">1M+</p>
               <p className="text-sm text-muted-foreground">Views Generated</p>
             </div>
           </div>
@@ -104,8 +81,6 @@ const Hero = () => {
           <div className="w-1.5 h-3 rounded-full bg-primary animate-pulse" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
