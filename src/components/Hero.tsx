@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display leading-none mb-6 animate-slide-up text-center">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl leading-none mb-6 animate-slide-up text-justify font-sans">
             HELPING CREATORS & BRANDS{" "}
             <span className="gradient-text">GO VIRAL</span> THROUGH{" "}
             <span className="gradient-text-accent">HIGH-IMPACT</span> VIDEO
